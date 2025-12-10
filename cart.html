@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="icon" type="image/svg" href="obs logo.svg">
+        <title>My online book store</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(255, 234, 242);
+            }
+            .navbar p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(253, 84, 163);
+                margin: 0px;
+                padding: 30px;
+            }
+            .navbar {
+                background-color: rgb(255, 253, 223);
+            }
+            .navbar ul {
+                list-style-type: none;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-around;
+                padding: 0px;
+                margin: 0;
+            }
+            .navbar a {
+                color: lightpink;
+                text-decoration: none;
+                padding: 16px;
+                display: block;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                width: 355px;
+                margin: 0px;
+            }
+            .navbar a:hover {
+                color: rgb(255, 126, 169);
+                text-decoration: underline;
+                background-color: rgb(255, 255, 195);
+            }
+            .right {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+            }
+            .leftlogo {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                left: 30px;
+            }
+            .bookimg {
+                display: block;
+                background-color: white;
+                width: 1000px;
+                margin-top: 28px;
+                margin-left: 28px;
+            }
+            .bookimgr {
+                
+                background-color: white;
+                width: 480px;
+                margin-top: 28px;
+                height: 422px;
+            }
+            .bookimg img {
+                margin: 20px;
+                border-radius: 10px;
+            }
+            .imgbook img {
+                width: 100px;
+            }
+            .contentbook {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+            }
+            .aboutbook {
+                font-family: sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                text-align: left;
+                margin-right: 15px;
+            }
+            .pricingtable td{
+                padding: 0 50px;
+                text-align: center;
+            }
+            .buttonbuy {
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(255, 145, 0);
+                background-color: rgb(255, 145, 0);
+                width: 150px;
+                padding: 10px;
+            }
+            .buttonadd:hover{
+                background-color: rgb(237, 237, 237);
+            }
+            .buttonbuy:hover {
+                background-color: rgb(237, 135, 0);
+            }
+            .author {
+                font-family: sans-serif;
+                font-weight: normal;
+            }
+            hr {
+                width: 96%;
+                border-color: rgb(253, 84, 163);
+            }
+            .deleteicon {
+                width: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar"><div><img src="obs logo.svg"  class="right"></div><div><img src="obs logo.svg" class="leftlogo"></div><p>Online Book store</p>
+        <nav><ul>
+            <li  class="homebs"><a href="homebs.html">Home</a></li>
+            <li  class="loginbs"><a href="loginbs.html">Login</a></li>
+            <li  class="registerbs"><a href="registerbs.html">Register</a></li>
+            <li  class="cataloguebs"><a href="cataloguebs.html">Catalogue</a></li>
+        </ul></nav></div><table><tr><td>
+        <div class="bookimg">
+                <div style="width: 100%; padding-left: 20px; padding-bottom: 0px; padding-top: 10px;">
+                    <h2 style="font-family: sans-serif; font-weight: bold; font-size: 30px; color: rgb(253, 84, 163);">Shoping cart</h2>
+                 </div><img src="carticon.svg" style="width: 50px; position: absolute;top: 190px; left: 220px;"><hr>
+                <div style="display: flex; padding: 20px;">
+            <div class="imgbook"><a href="rdpd.html">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3dNDjL2RQIkPqUoHbOhJz2xg40HdryZISclh1AVo_oUXhvGvS"></a>
+            </div>
+        <div class="contentbook" style="width: 400px;">
+            <p><label for="book1">Rich dad, Poor Dad</label></p>
+            <p class="aboutbook">Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!</p>
+            <p style="text-align: left;" class="author"><b>Author:</b> Sharon L. Lechter</p>
+            <div style="font-family: sans-serif; font-weight: normal;">
+                <label>Type: </label>
+                <label>Online Book</label>
+                <input type="radio" value="Online Book" name="book1">
+                <label>Physical Book</label>
+                <input type="radio" value="Physical Book" name="book1">
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="deleteicon.svg" class="deleteicon"><button style="width: 70px; height: 30px; border-radius: 20px;">- 1 +</button>
+            </div>
+            
+        </div>
+        <div class="imgbook"><a href="theseven.html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YPApaLerYpnznjRUkCVd-x0arsDqVUZJd-q20x-4lRUMEFwX" style="border: 1px solid black;"></a>
+            </div>
+        <div class="contentbook">
+            <p><label for="book2">The 7 Habits of Highly Effective People</label></p>
+            <p class="aboutbook">The 7 Habits of Highly Effective People is a business and self-help book </p>
+            <p style="text-align: left;" class="author"><b>Author:</b> Stephen R. Covey</p>
+            <div style="font-family: sans-serif; font-weight: normal;">
+                <label>Type: </label>
+                <label>Online Book</label>
+                <input type="radio" value="Online Book" name="book2">
+                <label>Physical Book</label>
+                <input type="radio" value="Physical Book" name="book2">
+            </div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <img src="deleteicon.svg" class="deleteicon"><button style="width: 70px; height: 30px; border-radius: 20px;">- 1 +</button>
+            </div>
+            </div>
+        </div><hr><br>
+    </div></td>
+    </div><td><div class="bookimgr">
+        <h2 style="font-family: sans-serif; font-weight: bold; font-size: 30px; color: rgb(253, 84, 163); margin-left: 20px; padding-top: 20px;">Payment</h2><hr>
+        <div  style="font-family: sans-serif; margin-left: 20px;">
+            <p><b>Delivery by Tomorrow 9pm for Physical Book</b></p>
+            <label>Quantity: </label><input type="quantity" min="0" max="99" value="1" style="border-radius: 20px; width: 20px;">
+            <p><b>Total : $70</b></p>
+            <p><b>Online Book</b></p>
+            <label>Ouantity: </label>
+            <input type="quantity" min="0" max="99" value="1" style="border-radius: 20px; width: 20px;">
+            <p><b>Total : $68</b></p>
+            <a href="payment.html"><button class="buttonbuy" style="width: 400px; margin-top: 0px; margin-bottom: 11px;">Procced To Payment Options</button></a>
+            <hr style="margin-top: 0px;">
+        </div>
+    </div></td></tr></table>
+    </body>
+</html>

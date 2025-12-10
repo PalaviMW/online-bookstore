@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="750mm"
+   height="750.00006mm"
+   viewBox="0 0 2834.6458 2834.6459"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <path
+       d="M 1417.3223,0 A 1417.3229,1417.3229 0 0 0 0,1417.3223 1417.3229,1417.3229 0 0 0 405.59375,2409.8984 1055.3009,1055.3009 0 0 1 1450.3359,1503.498 1055.3009,1055.3009 0 0 1 2484.7266,2349.7676 1417.3229,1417.3229 0 0 0 2834.6465,1417.3223 1417.3229,1417.3229 0 0 0 1417.3223,0 Z"
+       style="fill:#cccccc;fill-rule:evenodd;stroke-width:14.9783;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.7"
+       id="path4" />
+    <circle
+       style="fill:#999999;fill-rule:evenodd;stroke:none;stroke-width:14.9783;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.7"
+       id="path2"
+       cx="1417.3229"
+       cy="830.59155"
+       r="493.22101" />
+    <path
+       d="M 2484.7266,2349.7676 A 1055.3009,1055.3009 0 0 0 1450.3359,1503.498 1055.3009,1055.3009 0 0 0 405.59375,2409.8984 1417.3229,1417.3229 0 0 0 1417.3223,2834.6465 1417.3229,1417.3229 0 0 0 2484.7266,2349.7676 Z"
+       style="fill:#999999;fill-rule:evenodd;stroke-width:14.9783;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:7.7"
+       id="path6" />
+  </g>
+</svg>

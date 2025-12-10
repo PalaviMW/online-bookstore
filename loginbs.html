@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/svg" href="obs logo.svg">
+        <title>My online book store</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(255, 234, 242);
+            }
+            .navbar p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(253, 84, 163);
+                margin: 0px;
+                padding: 30px;
+            }
+            .navbar {
+                background-color: rgb(255, 253, 223);
+            }
+            .navbar ul {
+                list-style-type: none;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-around;
+                padding: 0px;
+                margin: 0;
+            }
+            .navbar a {
+                color: lightpink;
+                text-decoration: none;
+                padding: 16px;
+                display: block;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                width: 355px;
+                margin: 0px;
+            }
+            .navbar a:hover {
+                color: rgb(255, 126, 169);
+                text-decoration: underline;
+                background-color: rgb(255, 255, 195);
+            }
+            .right {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+            }
+            .leftlogo {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                left: 30px;
+            }
+            .form-box {
+                width: 350px;
+                margin: 60px auto;
+                text-align: center;
+                padding: 50px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+                font-weight: bold;
+                background-color: rgb(255, 255, 249);
+                color: rgb(253, 84, 163);
+                border-radius: 10px;
+                box-shadow: 0 0 10px;
+            }
+            .login {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 30px;
+                font-weight: bold;
+                margin-top: 60px;
+                color: rgb(253, 84, 163);
+            }
+            .login a {
+                font-size: 15px;
+            }
+            .note {
+                font-size: 20px;
+            }
+            .loginbs {
+                color: rgb(255, 126, 169);
+                text-decoration: underline;
+            }
+            .profileicon img {
+                width: 50px;
+                position: absolute;
+                top: 180px;
+                right: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar"><div><img src="obs logo.svg"  class="right"></div><div><img src="obs logo.svg" class="leftlogo"></div><p>Online Book store</p>
+        <nav><ul>
+            <li  class="homebs"><a href="homebs.html">Home</a></li>
+            <li  class="loginbs"><a href="loginbs.html">Login</a></li>
+            <li  class="registerbs"><a href="registerbs.html">Register</a></li>
+            <li  class="cataloguebs"><a href="cataloguebs.html">Catalogue</a></li>
+        </ul></nav></div><div class="profileicon"><a href="profilebs.html"><img src="profpic.svg"></a></div>
+        <center><div class="login"><p>Enter Login Details:</p><p class="note">NOTE: Please Register First If You Haven't</p><div class="form-box"><label>Username: </label><input type="text" required><br><br><label>Password: </label>
+            <input type="password" minlength="6" required><br><br>
+            <input type="reset">
+        <input type="Submit"></div><p><a href="registerbs.html">Register here</a></p></div></center>
+    </body>
+</html>

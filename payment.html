@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/svg" href="obs logo.svg">
+        <title>My online book store</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(255, 234, 242);
+            }
+            .navbar p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(253, 84, 163);
+                margin: 0px;
+                padding: 30px;
+            }
+            .navbar {
+                background-color: rgb(255, 253, 223);
+            }
+            .navbar ul {
+                list-style-type: none;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-around;
+                padding: 0px;
+                margin: 0;
+            }
+            .navbar a {
+                color: lightpink;
+                text-decoration: none;
+                padding: 16px;
+                display: block;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                width: 355px;
+                margin: 0px;
+            }
+            .navbar a:hover {
+                color: rgb(255, 126, 169);
+                text-decoration: underline;
+                background-color: rgb(255, 255, 195);
+            }
+            .right {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+            }
+            .leftlogo {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                left: 30px;
+            }
+            .bookimg {
+                display: block;
+                background-color: white;
+                width: 1000px;
+                margin-top: 28px;
+                margin-left: 28px;
+            }
+            .bookimgr {
+                
+                background-color: white;
+                width: 480px;
+                margin-top: 28px;
+                height: 428px;
+            }
+            .bookimg img {
+                margin: 20px;
+                border-radius: 10px;
+            }
+            .imgbook img {
+                width: 100px;
+            }
+            .contentbook {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                
+            }
+            .aboutbook {
+                font-family: sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                text-align: left;
+                margin-right: 15px;
+            }
+            .pricingtable td{
+                padding: 0 50px;
+                text-align: center;
+            }
+            .buttonadd {
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(255, 145, 0);
+                background-color: white;
+                width: 150px;
+                padding: 10px;
+            }
+            .buttonadd a{
+                color: black;
+                text-decoration: none;
+            }
+            .buttonbuy {
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(255, 145, 0);
+                background-color: rgb(255, 145, 0);
+                width: 150px;
+                padding: 10px;
+            }
+            .buttonadd:hover{
+                background-color: rgb(237, 237, 237);
+            }
+            .buttonbuy:hover {
+                background-color: rgb(237, 135, 0);
+            }
+            .author {
+                font-family: sans-serif;
+                font-weight: normal;
+            }
+            hr {
+                width: 96%;
+                border-color: rgb(253, 84, 163);
+            }
+            .deleteicon {
+                width: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar"><div><img src="obs logo.svg"  class="right"></div><div><img src="obs logo.svg" class="leftlogo"></div><p>Online Book store</p>
+        <nav><ul>
+            <li  class="homebs"><a href="homebs.html">Home</a></li>
+            <li  class="loginbs"><a href="loginbs.html">Login</a></li>
+            <li  class="registerbs"><a href="registerbs.html">Register</a></li>
+            <li  class="cataloguebs"><a href="cataloguebs.html">Catalogue</a></li>
+        </ul></nav></div><table><tr><td>
+        <div class="bookimg">
+                <div style="width: 100%; padding-left: 20px; padding-bottom: 0px; padding-top: 10px;">
+                    <h2 style="font-family: sans-serif; font-weight: bold; font-size: 30px; color: rgb(253, 84, 163);"><label for="payment">Payment Methods</label></h2>
+                 </div><hr>
+                <div style="display: flex; padding: 20px;">
+        <div class="contentbook">
+            <label for="card">Credit & Debit Cards:  </label><br><br>
+            <label style="font-size: 15px;">Credit card:</label>
+            <input type="radio" name="payment"><br><br>
+            <label style="font-size: 15px;">Debit card:</label>
+            <input type="radio" name="payment"><br><br><hr>
+            <label>UPI: </label>
+            <input type="radio" name="payment"><br><br>
+            <label>Net Banking: </label>
+            <input type="radio" name="payment"><br><br>
+            <label>Cash on Delivery: </label>
+            <input type="radio" name="payment"><br><br>
+            </div>
+        </div><hr><br>
+    </div></td>
+    </div><td><div class="bookimgr">
+        <h2 style="font-family: sans-serif; font-weight: bold; font-size: 30px; color: rgb(253, 84, 163); margin-left: 20px; padding-top: 20px;">Payment</h2><hr>
+        <div  style="font-family: sans-serif; margin-left: 20px;">
+            <table><tr><td>
+            <p>Items: </p></td><td style="text-align: right;">1</td></tr><tr><td>
+            <p>Delivery: </p></td><td style="text-align: right;">$2</td></tr><tr><td>
+            <p>Total:</p></td><td style="text-align: right;">$68</td></tr><tr><td>
+            <p style="font-size: 25px;"><b>Order Total:</b></p></td><td><p style="font-size: 25px;"><b>$70</b></p></td></tr><tr><input type="checkbox" required><label><a href="">Agree to terms and conditions</a></label></tr></table>
+            <a href="orderconfirm.html"><button class="buttonbuy" style="width: 400px; margin-top: 0px; margin-bottom: 11px;">Use This Payment Method</button></a>
+            <hr style="margin-top: 0px;">
+        </div>
+    </div></td></tr></table>
+    </body>
+</html>

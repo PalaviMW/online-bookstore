@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/svg" href="obs logo.svg">
+        <title>My online book store</title>
+        <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+                background-color: rgb(255, 234, 242);
+            }
+            .navbar p {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 40px;
+                font-weight: bold;
+                text-align: center;
+                color: rgb(253, 84, 163);
+                margin: 0px;
+                padding: 30px;
+            }
+            .navbar {
+                background-color: rgb(255, 253, 223);
+            }
+            .navbar ul {
+                list-style-type: none;
+                overflow: hidden;
+                display: flex;
+                justify-content: space-around;
+                padding: 0px;
+                margin: 0;
+            }
+            .navbar a {
+                color: lightpink;
+                text-decoration: none;
+                padding: 16px;
+                display: block;
+                text-align: center;
+                font-family: sans-serif;
+                font-weight: bold;
+                width: 355px;
+                margin: 0px;
+            }
+            .navbar a:hover {
+                color: rgb(255, 126, 169);
+                text-decoration: underline;
+                background-color: rgb(255, 255, 195);
+            }
+            .right {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                right: 30px;
+            }
+            .leftlogo {
+                width: 90px;
+                position: absolute;
+                top: 10px;
+                left: 30px;
+            }
+            .bookimg {
+                display: flex;
+                background-color: white;
+                width: 60%;
+                margin-top: 50px;
+            }
+            .bookimg img {
+                margin: 20px;
+                border-radius: 10px;
+            }
+            .contentbook {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bold;
+            }
+            .aboutbook {
+                font-family: sans-serif;
+                font-size: 14px;
+                font-weight: normal;
+                text-align: left;
+                margin-right: 15px;
+            }
+            .pricingtable td{
+                padding: 0 50px;
+                text-align: center;
+            }
+            .buttonadd {
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(255, 145, 0);
+                background-color: white;
+                width: 150px;
+                padding: 10px;
+            }
+            .buttonadd a{
+                color: rgb(67, 0, 183);
+                text-decoration: none;
+            }
+            .buttonbuy {
+                margin: 30px;
+                border-radius: 20px;
+                border: 1px solid rgb(255, 145, 0);
+                background-color: rgb(255, 145, 0);
+                width: 150px;
+                padding: 10px;
+            }
+            .buttonbuy a {
+                color: black;
+                text-decoration: none;
+            }
+            .buttonadd:hover{
+                background-color: rgb(237, 237, 237);
+            }
+            .buttonbuy:hover {
+                background-color: rgb(237, 135, 0);
+            }
+            .author {
+                font-family: sans-serif;
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar"><div><img src="obs logo.svg"  class="right"></div><div><img src="obs logo.svg" class="leftlogo"></div><p>Online Book store</p>
+        <nav><ul>
+            <li  class="homebs"><a href="homebs.html">Home</a></li>
+            <li  class="loginbs"><a href="loginbs.html">Login</a></li>
+            <li  class="registerbs"><a href="registerbs.html">Register</a></li>
+            <li  class="cataloguebs"><a href="cataloguebs.html">Catalogue</a></li>
+        </ul></nav></div><center><div class="bookimg">
+            <div>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR3dNDjL2RQIkPqUoHbOhJz2xg40HdryZISclh1AVo_oUXhvGvS">
+            </div>
+        <div class="contentbook">
+            <p>Rich dad, Poor Dad</p>
+            <p class="aboutbook">Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! is a 1997 book written by Robert T. Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence (financial IQ). Rich Dad Poor Dad is written in the style of a set of parables presented as autobiographical.[1] The titular "rich dad" is his best friend's father who accumulated wealth due to entrepreneurship and savvy investing, while the "poor dad" is claimed to be Kiyosaki's own father who he says worked hard all his life but never obtained financial security.</p>
+            <p style="text-align: left;" class="author"><b>Author:</b> Sharon L. Lechter</p>
+            <table class="pricingtable"><tr><td><p>online reading</p><p class="price">$28</p></td><td><p>Physical book</p><p>$30</p></td></tr></table>
+            <button class="buttonadd"><a href="cart.html">Go to cart</a></button> <button class="buttonbuy">Buy Now</button><p style="font-family: 'Times New Roman', Times, serif; font-size: 20px; margin: 16px;">Added to Cart successfully!</p>
+        </div>
+    </div></center>
+    </body>
+</html>
